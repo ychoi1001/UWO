@@ -1,0 +1,4 @@
+12
+The first line of the file must contain a single integer.
+The remaining lines of the file might contain any
+information.
