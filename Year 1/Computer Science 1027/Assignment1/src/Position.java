@@ -1,7 +1,7 @@
 /**
  * An object of class Position represents the position of a square of the grid
  * 
- * Student ID: 251126837
+ * 
  * 
  * @author Yeonsil Choi
  */

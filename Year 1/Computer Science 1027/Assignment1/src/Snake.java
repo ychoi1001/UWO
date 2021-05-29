@@ -1,7 +1,7 @@
 /**
  * stores the information about the snake as it moves around the board
  * 
- * Student ID: 251126837
+ * 
  * 
  * @author Yeonsil Choi
  * 

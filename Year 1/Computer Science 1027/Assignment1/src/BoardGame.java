@@ -4,7 +4,7 @@ import java.util.List;
 /**
  * represents the board game where the snake moves around eating apples
  * 
- * Student ID: 251126837
+ * 
  * 
  * @author Yeonsil Choi
  *
