@@ -1,1 +1,2 @@
+# Computer Science 3319
 A study of relational databases. Theoretical concepts will be covered, including relational algebra and relational calculus. Commercially available database systems will be used to demonstrate concepts such as Structured-Query-Language (SQL), writing code to connect and query a database, query optimization, Atomicity-Consistency-Isolation-Durability (ACID) concepts, and database design.
