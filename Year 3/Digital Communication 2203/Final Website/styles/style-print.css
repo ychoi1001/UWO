@@ -1,0 +1,20 @@
+/* Use black and white for printing */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Rubik:ital@1&display=swap');
+
+nav {
+    display: none;
+    
+}
+
+header {
+    background-color:  white; 
+    color: black;
+}
+
+
+footer {
+    background-color: white;
+    color: black;
+    
+}

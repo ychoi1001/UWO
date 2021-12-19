@@ -1,0 +1,111 @@
+/*
+
+3 Column Layout using Grid for "HOME"
+            
+*/
+
+/*Grid design*/
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    'header header  header  header  header  header' 
+    'nav    nav     nav     nav     nav     nav'
+    'a      a       a       a       a       a'
+    'item1   item1   item2   item2   item3  item3'
+    'item4 item4  item5  item5  item6  item6'
+    'footer footer  footer  footer  footer  footer';
+     
+    grid-row: auto;
+} 
+
+.header {
+    grid-area: header;
+}
+
+.navcontainer {
+    grid-area: nav;
+}
+.title {
+    grid-area: a;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#item1, #item2, #item3, #item4, #item5, #item6 {
+    padding: 10%;
+    font-size: 20px;
+}
+#item1 h3, #item2 h3, #item3 h3, #item4 h3, #item5 h3, #item6 h3{
+    text-align: center;
+}
+
+ #item1 {
+    grid-area: item1;   
+}
+  
+ #item2 {
+      grid-area: item2;
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+  
+ #item3 {
+      grid-area: item3;
+  }
+  
+#item4 {
+    grid-area: item4;
+    background-color: #C9E8A7;
+  }
+  
+#item5 {
+   grid-area: item5;
+   background-color: #C9E8A7;
+}
+  
+#item6 {
+  grid-area: item6;
+  background-color: #C9E8A7;
+}
+
+
+
+footer {
+    grid-area: footer;
+}
+
+section {
+    background-color: white;
+}
+
+section p  {
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 1.3;
+}
+
+section header {
+    margin-top: 0px;
+}
+
+/*responsive grid design*/
+@media (max-width: 600px) {
+    .grid-container  {
+        grid-template-areas: 
+            'header' 
+            'nav'
+            'item1' 
+            'item2' 
+            'item3'
+            'item4'
+            'item5'
+            'item6' 
+            'footer';
+  }
+    
+    #item2, item5 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+}

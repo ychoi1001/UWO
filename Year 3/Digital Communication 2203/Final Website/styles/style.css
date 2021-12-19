@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 180px;
+  text-align: center;
+  background: url(../images/catanddog-copy.jpg);
+  /*image from https://images.unsplash.com/photo-1450778869180-41d0601e046e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2896&q=80*/ 
+  background-size: cover;
+
+}
+
+img {
+  object-fit: cover;
+  width:300px;
+  height: 300px;
+  display:block;
+  margin: auto;
+}
+
+h1, h2, h3 {
+  font-family: 'Rubik', sans-serif;
+}
+
+.header h2 {
+  color: white;
+}
+.header p{
+  font-family: 'Rubik', sans-serif;
+  color: white;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  
+  padding: 2%;
+  
+  font-family: 'Rubik', sans-serif;
+}
+
+footer h1 {
+  text-align: center;
+  font-size: smaller;
+  font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+
+/*fa icons*/
+.fa {
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}  
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-envelope {
+  background: rgb(0, 153, 255);
+  color: white;
+}
+
+/*To hide anchor text*/
+.hide {
+  visibility:hidden;
+}
+
+footer li {
+  display:inline-block;
+  margin: auto 1%;
+}
+footer ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+/*button design*/
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin: 5% auto;
+  display: block;
+  
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/*contact us form design*/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}

@@ -1,0 +1,94 @@
+/*
+
+3 Column Layout using Grid for about us and contact us page
+            
+*/
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    'header header  header  header  header  header' 
+    'nav    nav     nav     nav     nav     nav'
+    'main   main    main    main    main    main'
+    'footer footer  footer  footer  footer  footer';
+     
+    grid-row: auto;
+} 
+
+.header {
+    grid-area: header;
+}
+
+.navcontainer {
+    grid-area: nav;
+}
+
+#maindiv {
+    grid-area: main;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 80%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 200%;
+}
+
+
+footer {
+    grid-area: footer;
+}
+
+
+#maindiv p{
+    padding: 5%;
+    line-height: 200%;
+    font-size: 20px;
+}
+#maindiv h2 {
+    text-align: center;
+}
+
+#maindiv ul {
+    list-style-type: none;
+  }
+  
+  #maindiv li {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #maindiv li:last-child {
+    border: none;
+  }
+   
+  #maindiv li a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    width: 200px;
+   
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+  }
+   
+  #maindiv li a:hover {
+    font-size: 30px;
+    background: #f6f6f6;
+  }
+
+
+@media (max-width: 600px) {
+    .grid-container  {
+        grid-template-areas: 
+            'header' 
+            'nav'
+            'main' 
+            'footer';
+  } 
+
+}
