@@ -10,3 +10,9 @@ Code that I have written for assignments during my time at Western University
 - Computer Science 2210 :: DATA STRUCTURES AND ALGORITHMS
 - Computer Science 2211 :: SOFTWARE TOOLS AND SYSTEMS PROGRAMMING
 - Statistical Sciences 2864 :: STATISTICAL PROGRAMMING
+
+## YEAR 3
+- Computer Science 2212 :: INTRODUCTION TO SOFTWARE ENGINEERING
+- Computer Science 3319 :: DATABASES I
+- Statistical Sciences 3859 :: REGRESSION
+- Digital Communication 2203 :: INTRODUCTION TO WEB DESIGN & DIGITAL IMAGING
