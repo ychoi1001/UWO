@@ -1,0 +1,10 @@
+link
+e-radix
+true-usd
+huobi-token
+decred
+nexo
+nem
+msol
+frax
+osmosis

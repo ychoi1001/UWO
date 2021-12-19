@@ -1,0 +1,5 @@
+yeonsil,admin
+nicole,admin
+grace,admin
+homer,cat
+pavle,pizza
