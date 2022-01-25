@@ -16,3 +16,5 @@ Code that I have written for assignments during my time at Western University
 - Computer Science 3319 :: DATABASES I
 - Statistical Sciences 3859 :: REGRESSION
 - Digital Communication 2203 :: INTRODUCTION TO WEB DESIGN & DIGITAL IMAGING
+- Data Science 2000 :: INTRODUCTION TO DATA SCIENCE
+- Data Science 3000 :: INTRODUCTION TO MACHINE LEARNING
