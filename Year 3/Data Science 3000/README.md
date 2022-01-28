@@ -1,0 +1,2 @@
+# Data Science 3000
+Basic principles of machine learning (estimation, optimization, prediction, generalization, bias-variance trade-off, regularization) in the context of supervised (linear models, decision trees, deep neuronal networks) and unsupervised (clustering and dimensionality reduction) statistical learning techniques. The course emphasizes the ability to apply techniques to real data sets and critically evaluate their performance.
