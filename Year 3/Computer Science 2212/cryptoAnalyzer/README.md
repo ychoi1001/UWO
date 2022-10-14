@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Crypto Analyzer</h1>
 
-<p id="description">For this project I specified design and implement a system that allows for a) retrieving data from the CoinGecko cryptocurrency repository related to cryptocurrency prices; b) processing if required the data using different types of analyses and c) rendering the retrieved data or the processed data. Example data which can be retrieved for a given cryptocurrency from the CoinGecko data repository include Bitcoins’ current price or Bitcoin’s market cap or Ethereum’s volume of transactions.</p>
+<p id="description">For this project, I specified design and implemented a system that allows for retrieving data from the CoinGecko cryptocurrency repository related to cryptocurrency prices; processing if required the data using different types of analyses and rendering the retrieved data or the processed data. Example data which can be retrieved for a given cryptocurrency from the CoinGecko data repository include Bitcoins’ current price or Bitcoin’s market cap or Ethereum’s volume of transactions.</p>
 
 <h2>Project Screenshots:</h2>
 
