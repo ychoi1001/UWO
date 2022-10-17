@@ -22,7 +22,7 @@ CREATE TABLE passport (passportNum CHAR(4) NOT NULL, expiryDate DATE NOT NULL, c
 
 CREATE TABLE bus (licenseNum CHAR(7) NOT NULL, capacity INT NOT NULL, PRIMARY KEY(licenseNum));
 
-CREATE TABLE busTrip (tripID INT NOT NULL, startDate DATE NOT NULL, endDate DATE NOT NULL, country VARCHAR(30) NOT NULL, tripName VARCHAR(50) NOT NULL, licenseNum CHAR(7) NOT NULL, PRIMARY KEY(tripID), FOREIGN KEY(licenseNum) REFERENCES bus(licenseNum));
+CREATE TABLE busTrip (tripID INT NOT NULL, startDate DATE NOT NULL, endDate DATE NOT NULL, country VARCHAR(30) NOT NULL, tripName VARCHAR(50) NOT NULL, licenseNum CHAR(7) NOT NULL, urlmage CHAR(255), PRIMARY KEY(tripID), FOREIGN KEY(licenseNum) REFERENCES bus(licenseNum));
 
 CREATE TABLE booking (passengerID INT NOT NULL, tripID INT NOT NULL, pricePaid DECIMAL(10,2) NOT NULL, PRIMARY KEY(passengerID, tripID), FOREIGN KEY(tripID) REFERENCES busTrip(tripID), FOREIGN KEY(passengerID) REFERENCES passenger(passengerID) ON DELETE CASCADE);
 
