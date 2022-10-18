@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Bus Trip Website</h1>
 
-<p id="description">For this project, I designed and created a relational database and tables, inserted data, updated the data from tables, and queried a database using MySQL. I created a website that allows a user to make updates, insertions, deletions and to query a database using PHP, MySQL, HTML, CSS, JavaScript that connects to a back-end database</p>
+<p id="description">For this project, I designed and created a relational database and tables, inserted data, updated the data from tables, and queried a database using MySQL. I created a website that allows a user to make updates, insertions, deletions and to query a database using PHP, MySQL, HTML, CSS, JavaScript that connects to a back-end database.</p>
 
 <h2>Project Screenshots:</h2>
 
