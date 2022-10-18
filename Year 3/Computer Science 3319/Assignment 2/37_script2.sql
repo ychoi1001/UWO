@@ -64,16 +64,16 @@ SELECT * FROM passport;
 SELECT * FROM busTrip;
 
 -- insert data
-INSERT INTO busTrip VALUES(1, "2022-01-01", "2022-01-17", "Germany", "Castles of Germany", "VAN1111", "");
-INSERT INTO busTrip VALUES(2, "2022-03-03", "2022-03-14", "Italy", "Tuscany Sunsets", "TAXI222", '');
-INSERT INTO busTrip VALUES(3, "2022-05-05", "2022-05-10", "USA", "California Wines", "VAN2222", "");
-INSERT INTO busTrip VALUES(4, "2022-04-04", "2022-04-14", "Bermuda", "Beaches Galore", "TAXI222, """);
-INSERT INTO busTrip VALUES(5, "2022-06-01", "2022-06-22", "Canada", "Cottage Country", "CAND123", "");
-INSERT INTO busTrip VALUES(6, "2022-07-05", "2022-07-15", "Italy", "Arrivaderci Roma", "TAXI111", "");
-INSERT INTO busTrip VALUES(7, "2022-09-09", "2022-09-29", "UK", "Shetland and Orkney", "TAXI111", "");
-INSERT INTO busTrip VALUES(8, "2022-06-10", "2022-06-20", "USA", "Disney World and Sea World", "VAN2222", "");
-INSERT INTO busTrip VALUES(9, "2022-12-20", "2022-12-27", "France", "Dream Trip", "VAN2222", "");
-INSERT INTO busTrip VALUES(10, "2022-05-11", "2022-05-17", "Japan", "Nightmare Trip", "TAXI111", "");
+INSERT INTO busTrip VALUES(1, "2022-01-01", "2022-01-17", "Germany", "Castles of Germany", "VAN1111", NULL);
+INSERT INTO busTrip VALUES(2, "2022-03-03", "2022-03-14", "Italy", "Tuscany Sunsets", "TAXI222", NULL);
+INSERT INTO busTrip VALUES(3, "2022-05-05", "2022-05-10", "USA", "California Wines", "VAN2222", NULL);
+INSERT INTO busTrip VALUES(4, "2022-04-04", "2022-04-14", "Bermuda", "Beaches Galore", "TAXI222", NULL);
+INSERT INTO busTrip VALUES(5, "2022-06-01", "2022-06-22", "Canada", "Cottage Country", "CAND123", NULL);
+INSERT INTO busTrip VALUES(6, "2022-07-05", "2022-07-15", "Italy", "Arrivaderci Roma", "TAXI111", NULL);
+INSERT INTO busTrip VALUES(7, "2022-09-09", "2022-09-29", "UK", "Shetland and Orkney", "TAXI111", NULL);
+INSERT INTO busTrip VALUES(8, "2022-06-10", "2022-06-20", "USA", "Disney World and Sea World", "VAN2222", NULL);
+INSERT INTO busTrip VALUES(9, "2022-12-20", "2022-12-27", "France", "Dream Trip", "VAN2222", NULL);
+INSERT INTO busTrip VALUES(10, "2022-05-11", "2022-05-17", "Japan", "Nightmare Trip", "TAXI111", NULL);
 
 -- prove the busTrip table now has data
 SELECT * FROM busTrip;
