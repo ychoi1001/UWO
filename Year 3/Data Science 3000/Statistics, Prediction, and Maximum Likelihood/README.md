@@ -1,0 +1,1 @@
+In this project, we will review the fundamentals of probability and statistics. In doing so, we will discuss how conditional distributions can be used to make predictions. We will also see how information about the distribution of an outcome can be used to define the loss function for supervised learning, through the principle of maximum likelihood.
