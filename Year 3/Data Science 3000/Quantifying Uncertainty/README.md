@@ -1,0 +1,1 @@
+Quantifying uncertainty means assigning numbers or probabilities to uncertain outcomes, aiding decision-making and risk management. It involves using math and stats to measure and communicate uncertainty's extent, often using tools like probability distributions and simulations.
