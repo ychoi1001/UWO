@@ -30,7 +30,10 @@ This project features a responsive and interactive website for the London Animal
 ## Features
 - **Responsive Design**: Adapts to different screen sizes for better usability.
 <img width="686" alt="Screenshot 2024-08-27 at 9 21 22 PM" src="https://github.com/user-attachments/assets/cc4b392d-3e75-4f2b-b825-e12bc40d6b20">
+
 - **Interactive Navigation**: Includes dropdown menus for easy access to different sections, enhanced with JavaScript.
+![ScreenRecording2024-08-27at9 59 21PM-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/c44827ce-04d7-49ba-bf69-4d05f8824895)
+
 - **User Interaction Forms**: Includes forms for visitor inquiries and feedback.
 - **Visual and Functional Elements**: Engaging images and buttons to enhance user experience.
 
