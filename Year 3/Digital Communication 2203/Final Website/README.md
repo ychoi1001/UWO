@@ -9,7 +9,6 @@ This project features a responsive and interactive website for the London Animal
 1. **Home**
    - Overview of the center’s mission.
    - Featured sections including Donate, Adopt, Volunteer, Dogs, Cats, and Cuddly Critters.
-   - 
 ![ScreenRecording2024-08-27at9 42 14PM-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/f6dcac8f-4e9e-406e-b8c6-09755243237f)
 
 2. **Who We Are**
